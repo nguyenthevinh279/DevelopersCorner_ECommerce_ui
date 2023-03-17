@@ -16,7 +16,8 @@ const SingleProduct = () => {
         height: 500, 
         zoomWidth: 600, 
         img: "https://thegioialo.vn/wp-content/uploads/2022/11/Watch-Series-8-45mm-5.jpg"};
-    const [orderdProduct,setOderedProduct]=useState(true)
+    // const [orderdProduct,setOderedProduct]=useState(true)
+    const orderdProduct =true
   const  copyToClipboard = (text) => {
         console.log('text', text)
         var textField = document.createElement('textarea')
