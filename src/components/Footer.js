@@ -44,16 +44,16 @@ const Footer = () => {
               <a href="tel:+91 97846334" className='mt-3 text-white'>+91 0786734678</a>
               <a href="mailto:digitic@gmail.com" className='mt-3 d-block mb-1 text-white'>digitic@gamil.com</a>
               <div className="social-icons d-flex align-items-center gap-30 mt-4">
-                <a href="#">
+                <a href="#top">
                   <BsLinkedin className='text-white fs-5' />
                 </a>
-                <a href="#">
+                <a href="#top">
                   <BsInstagram className='text-white fs-5' />
                 </a>
-                <a href="#">
+                <a href="#top">
                   <BsGithub className='text-white fs-5' />
                 </a>
-                <a href="#">
+                <a href="#top">
                   <BsYoutube className='text-white fs-5' />
                 </a>
               </div>

@@ -124,10 +124,10 @@ const SingleProduct = () => {
                             </div>
                             <div className="d-flex gap-15 align-items-center gap-15">
                                 <div>
-                                    <a href="#"> <TbGitCompare className='fs-5 me-2'/> Add to compare</a>
+                                    <a href="#top"> <TbGitCompare className='fs-5 me-2'/> Add to compare</a>
                                 </div>
                                 <div>
-                                    <a href="#"><AiOutlineHeart className='fs-5 me-2'/> Add to Wishlist</a>
+                                    <a href="#top"><AiOutlineHeart className='fs-5 me-2'/> Add to Wishlist</a>
                                 </div>
                             </div>
                             <div className='d-flex flex-column gap-10 my-3 '>
@@ -138,7 +138,7 @@ const SingleProduct = () => {
                             </div>
                             <div className='d-flex gap-10 align-items-center my-3'>
                                 <h3 className='product-heading'>Copy Product Link :</h3> 
-                                <a href="javascript:void(0);" onClick={()=>copyToClipboard("https://thegioialo.vn/wp-content/uploads/2022/11/Watch-Series-8-45mm-5.jpg")}>
+                                <a href="#top" onClick={()=>copyToClipboard("https://thegioialo.vn/wp-content/uploads/2022/11/Watch-Series-8-45mm-5.jpg")}>
                                 Product Link
                                 </a>
                             </div>
@@ -188,7 +188,7 @@ const SingleProduct = () => {
                             {
                                 orderdProduct && (
                                     <div>
-                                        <a className='text-decoration-underline' href="#">Write a review</a>
+                                        <a className='text-decoration-underline' href="#top">Write a review</a>
                                     </div>
                                 )
                             }
