@@ -2,7 +2,7 @@ import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Container from '../components/Container'
 import Meta from '../components/Meta'
-import ProductCard from '../components/ProductCard'
+
 const Wishlist = () => {
   return (
    <>

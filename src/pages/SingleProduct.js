@@ -124,10 +124,10 @@ const SingleProduct = () => {
                             </div>
                             <div className="d-flex gap-15 align-items-center gap-15">
                                 <div>
-                                    <a href=""> <TbGitCompare className='fs-5 me-2'/> Add to compare</a>
+                                    <a href="#"> <TbGitCompare className='fs-5 me-2'/> Add to compare</a>
                                 </div>
                                 <div>
-                                    <a href=""><AiOutlineHeart className='fs-5 me-2'/> Add to Wishlist</a>
+                                    <a href="#"><AiOutlineHeart className='fs-5 me-2'/> Add to Wishlist</a>
                                 </div>
                             </div>
                             <div className='d-flex flex-column gap-10 my-3 '>
@@ -188,7 +188,7 @@ const SingleProduct = () => {
                             {
                                 orderdProduct && (
                                     <div>
-                                        <a className='text-decoration-underline' href="">Write a review</a>
+                                        <a className='text-decoration-underline' href="#">Write a review</a>
                                     </div>
                                 )
                             }
